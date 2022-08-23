@@ -22,7 +22,6 @@ document.getElementById("calculate-btn").addEventListener("click", function () {
     const costOfCoach = parseInt(costCoachString);
 
     const totalAmount = document.getElementById("total-cost");
-    // const total = totalAmount.innerText;
 
     const totalCost = costOfManager + costOfCoach + totalExpensePlayer;
     totalAmount.innerText = totalCost;
