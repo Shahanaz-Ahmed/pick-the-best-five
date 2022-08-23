@@ -1,7 +1,6 @@
 main,footer{
     background-color:  #201f1f;
 }
-
 .header-h1{
     margin-left: 200px;
     color: #FF5E19;
@@ -10,9 +9,6 @@ main,footer{
 .header-p{
     width: 70%;
 }
-/* .sub-card{
-    height: 371px;
-} */
 .footer{
     height: 200px;
 }

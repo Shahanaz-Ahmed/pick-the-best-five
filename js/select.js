@@ -9,7 +9,7 @@ function display(selectedPlayerName) {
 
     const div = document.createElement("div");
     div.innerHTML = `
-    <p>${i + 1}.${selectedPlayerName[i].playerName}</p>
+    <p>${i + 1}.&nbsp;&nbsp; ${selectedPlayerName[i].playerName}</p>
     `;
 
     selectedBody.appendChild(div);
@@ -33,9 +33,4 @@ function selectedBestFive(PlayerName) {
   }
 
   display(playerArray);
-  element.style.backgroundColor = "#808080";
-  element.style.color = "white";
-  element.disabled = true;
-  // playerName.disabled = true;
-  // playerName.style.color = "gray";
 }
