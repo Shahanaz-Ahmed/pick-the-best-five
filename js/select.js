@@ -31,8 +31,11 @@ function selectedBestFive(PlayerName) {
   if (playerArray.length < 5) {
     playerArray.push(playerObj);
   }
-  display(playerArray);
 
-  playerName.style.color = "gray";
-  playerName.disabled = true;
+  display(playerArray);
+  element.style.backgroundColor = "#808080";
+  element.style.color = "white";
+  element.disabled = true;
+  // playerName.disabled = true;
+  // playerName.style.color = "gray";
 }
